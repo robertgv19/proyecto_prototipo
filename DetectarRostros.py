@@ -3,7 +3,7 @@ import os
 import imutils
 
 personName = 'Robert'
-dataPath = 'C:/Users/pc/source/repos/proyecto_prototipo_qchao/data' 
+dataPath = 'C:/Users/pc/source/repos/proyecto_prototipo_qchao/data/personas' 
 personPath = dataPath + '/' + personName
 
 if not os.path.exists(personPath):
